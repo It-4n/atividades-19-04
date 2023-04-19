@@ -16,7 +16,7 @@ menorIdade <- 999
 enquanto resposta = 1 faca
   escreval("Deseja informar uma pessoa?")
   escreval("1 - Sim")
-  escreval("2 - N„o")
+  escreval("2 - N√£o")
   leia(resposta)
   limpatela
 
@@ -29,7 +29,7 @@ enquanto resposta = 1 faca
    leia(idade)
    ate idade >= 0
    
-   escreva("Informe seu sal·rio: R$")
+   escreva("Informe seu sal√°rio: R$")
    leia(salario)
    escreval("")
 
@@ -40,9 +40,9 @@ enquanto resposta = 1 faca
    fimenquanto
   fimenquanto
 
-  se (salario <= 1000) e (sexo = "F") entao
-    qtdMil <- qtdMil + 1
-  fimse
+   se (salario <= 1000) e (sexo = "F") entao
+     qtdMil <- qtdMil + 1
+   fimse
 
 qtd <- qtd + 1
 somaSalario <- somaSalario + salario
@@ -54,7 +54,7 @@ media <- somaSalario/qtd
 
 escreval("Maior idade: ", maiorIdade)
 escreval("Menor idade: ", menorIdade)
-escreval("MÈdia salarial: R$", media, ",00")
-escreval("Mulheres com sal·rio atÈ R$1000,00: ", qtdMil)
+escreval("M√©dia salarial: R$", media, ",00")
+escreval("Mulheres com sal√°rio at√© R$1000,00: ", qtdMil)
 
 Fimalgoritmo
