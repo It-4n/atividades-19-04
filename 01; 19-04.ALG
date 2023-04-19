@@ -1,4 +1,4 @@
-Algoritmo "Famílias entrevistadas"
+Algoritmo "FamÃ­lias entrevistadas"
 
 Var
 resposta, qtdFamilia, filho, totalFilho: inteiro
@@ -15,8 +15,8 @@ maiorSalario <- 0
 menorSalario <- 999999
 
 enquanto resposta = 1 faca
-  escreval("Escolha uma opção:")
-  escreval("1 - Para responder à pesquisa")
+  escreval("Escolha uma opÃ§Ã£o:")
+  escreval("1 - Para responder Ã  pesquisa")
   escreval("2 - Para sair")
   leia(resposta)
   limpatela
@@ -24,7 +24,7 @@ enquanto resposta = 1 faca
  se resposta = 1 entao
    escreval("Informe sua renda: ")
    leia(salario)
-   escreval("Informe o número de filhos que você possui: ")
+   escreval("Informe o nÃºmero de filhos que vocÃª possui: ")
    leia(filho)
    escreval("")
    
@@ -45,11 +45,10 @@ fimenquanto
 mediaSalario <- somaSalario/qtdFamilia
 mediaFilho <- totalFilho/qtdFamilia
 
-escreval("Total de famílias entrevistadas: ", qtdFamilia)
-escreval("A média de filhos é: ", mediaFilho)
-escreval("A média salarial é: ", mediaSalario)
-escreval("O maior salário é: ", maiorSalario)
-escreval("O menor salário é: ", menorSalario)
-
+escreval("Total de famÃ­lias entrevistadas: ", qtdFamilia)
+escreval("A mÃ©dia de filhos Ã©: ", mediaFilho)
+escreval("A mÃ©dia salarial Ã©: ", mediaSalario)
+escreval("O maior salÃ¡rio Ã©: ", maiorSalario)
+escreval("O menor salÃ¡rio Ã©: ", menorSalario)
 
 Fimalgoritmo
