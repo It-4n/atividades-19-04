@@ -1,4 +1,4 @@
-Algoritmo "Pesquisa entre pessoas"
+Algoritmo "semnome"
 
 Var
 idade, maiorIdade, menorIdade, salario, qtd, qtdMil, resposta: inteiro
@@ -54,9 +54,9 @@ fimenquanto
 
 media <- somaSalario/qtd
 
-escreval("Maior idade: ", maiorIdade)
-escreval("Menor idade: ", menorIdade)
-escreval("Média salarial: R$", media, ",00")
-escreval("Mulheres com salário até R$1000,00: ", qtdMil)
+escreval("Maior idade:", maiorIdade)
+escreval("Menor idade:", menorIdade)
+escreval("Média salarial: R$", media:3:2)
+escreval("Mulheres com salário até R$1000.00:", qtdMil)
 
 Fimalgoritmo
