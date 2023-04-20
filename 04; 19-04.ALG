@@ -20,36 +20,40 @@ enquanto resposta = 1 faca
   leia(resposta)
   limpatela
 
- se resposta = 1 entao
-   escreva("Informe seu sexo: ")
-   leia(sexo)
-   escreva("Informe sua idade: ")
-   leia(idade)
+se resposta = 1 entao
 
-  se idade >= 0 entao
-    escreva("Informe seu salário: R$")
-    leia(salario)
-    escreval("")
-  senao
-    escreval("Dados inválidos.")
-    escreval("")
-  fimse
+repita
+  escreva("Informe seu sexo: ")
+  leia(sexo)
+ate (sexo = "M")ou(sexo = "F")
+
+  escreva("Informe sua idade: ")
+  leia(idade)
+
+se idade >= 0 entao
+  escreva("Informe seu salário: R$")
+  leia(salario)
+  escreval("")
+senao
+  escreval("Dados inválidos.")
+  escreval("")
+fimse
    
-   enquanto idade > maiorIdade faca
-     maiorIdade <- idade
-    enquanto idade < menorIdade faca
-      menorIdade <- idade
-    fimenquanto
-   fimenquanto
+enquanto idade > maiorIdade faca
+  maiorIdade <- idade
+enquanto idade < menorIdade faca
+  menorIdade <- idade
+fimenquanto
+fimenquanto
 
-    se (salario <= 1000) e (sexo = "F") entao
-      qtdMil <- qtdMil + 1
-    fimse
+se (salario <= 1000) e (sexo = "F") entao
+  qtdMil <- qtdMil + 1
+fimse
 
 qtd <- qtd + 1
 somaSalario <- somaSalario + salario
 
- fimse
+fimse
 fimenquanto
 
 media <- somaSalario/qtd
