@@ -1,4 +1,4 @@
-Algoritmo "semnome"
+Algoritmo "Pesquisa com pessoas"
 
 Var
 idade, maiorIdade, menorIdade, salario, qtd, qtdMil, resposta: inteiro
